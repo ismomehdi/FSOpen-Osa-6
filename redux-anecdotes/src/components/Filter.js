@@ -11,7 +11,7 @@ const Filter = () => {
     const style = {
       marginBottom: 10
     }
-  
+
     return (
       <div style={style}>
         filter <input onChange={handleChange} />
