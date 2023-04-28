@@ -20,7 +20,7 @@ const AnecdoteList = () => {
     }
 
     const sortedAnecdotes = [...anecdotes].sort((a, b) => b.votes - a.votes)
-
+    
     return (
         sortedAnecdotes
             .map(anecdote =>
